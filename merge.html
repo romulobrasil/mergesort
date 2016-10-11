@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merge Sort em Javascript by Rômulo Brasil</title>
+</head>
+<body>
+    
+    <main class="merge-content">
+        <div class="merge-array">
+            <span id="prtArray">{ }</span>
+        </div>
+
+        <div class="merge-form">
+            <input type="text" name="number" class="merge-number" id="number" placeholder="Adicione um número por vez" data-mask="####">
+            <button type="button" id="btnArray" class="btnArray" title="Adicionar número">Add</button>
+            <button type="button" id="btnMerge" class="btnMerge" title="Aplicar o algoritmo">Merge</button>
+        </div>
+
+        <div class="merge-result">
+            <span>Result:</span>
+            <span id="prtResult" class="prtResult"></span>
+        </div>
+
+        <div class="merge-console">
+            <span>Console da função:</span>
+            <pre>
+            <div class="" id="prtConsole"></div>
+        </pre>
+
+            <button type="button" class="btnReset" id="btnReset" title="Resetar e comerçar outro exemplo">Reset</button>
+        </div>
+    </main>
+
+    <script src="https://romulobrasil.com/app/mergesort/js/PureMask.js"></script> 
+    <script src="https://romulobrasil.com/app/mergesort/js/merge.js"></script>
+    <script src="https://romulobrasil.com/app/mergesort/js/main.js"></script>
+    <script>PureMask.format("#number"); </script>    
+</body>
+</html>
